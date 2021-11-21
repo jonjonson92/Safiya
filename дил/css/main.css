@@ -1,0 +1,66 @@
+body {
+    margin:0px;
+    margin-top:auto;
+    padding: 0px;
+}
+.header {
+    
+    background:url(/img/Без\ имени-1.png) no-repeat;
+  background-size: 100%;
+  margin-left: 200px;
+}
+.container {
+    width: 1700px;
+    height: 100vh;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+h1 {
+    font-size: 70px;
+}
+.title {
+    padding-top: 100px;
+    color:black;
+    width: 240px;
+    font-size: 20px;
+    text-align: left;
+}
+span , a {
+    background: rgb(60, 243, 69);
+    font-size: 30px;
+    color: rgb(238, 49, 80);
+    width: 250px;
+    height: 250px;
+    text-decoration:none
+
+    
+}
+@media screen and (max-width: 1200px) {
+    .header {
+        display: block;
+        width: 992px;
+    }
+.container {
+    width: 960px;
+}
+.title , h1 {
+    width: 960px;
+}
+}
+@media screen and (max-width: 992px){
+.title , h1{
+    width: 460px;
+}
+}
+@media screen and (max-width: 768px){
+.title , h1{
+    width: 300px;
+    margin-left: -5px;
+}
+}
+@media screen and (max-width: 576px){
+.title , h1{
+    width: 20%;
+}
+}
